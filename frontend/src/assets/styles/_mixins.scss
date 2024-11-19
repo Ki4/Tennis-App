@@ -1,0 +1,129 @@
+
+
+@mixin h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 44px;
+}
+
+@mixin h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 40px;}
+
+@mixin h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 36px;
+}
+
+@mixin h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 28px;
+}
+
+@mixin h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 20px;
+}
+
+@mixin h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 18px;
+}
+
+@mixin main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    font-size: 14px;
+}
+
+@mixin main-text-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    font-size: 14px;
+}
+
+@mixin secondary-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    font-size: 16px;
+}
+
+@mixin secondary-text-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    font-size: 16px;
+}
+
+@mixin small-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+@mixin small-text-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 12px;
+}
+
+
+@mixin button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 14px;
+}
+
+@mixin flex-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

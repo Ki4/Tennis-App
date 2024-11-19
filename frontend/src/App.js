@@ -1,7 +1,12 @@
+import 'normalize.css';
+import './assets/styles/main.scss'
+
+
+
 function App() {
   return (
-    <div>
-      Initial commit
+    <div className="test">
+      Hello world
     </div>
   );
 }
